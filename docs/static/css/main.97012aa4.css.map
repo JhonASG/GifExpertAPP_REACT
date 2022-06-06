@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "file": "./main.97012aa4.css",
+    "file": "../docs/static/css/main.97012aa4.css",
     "mappings": "AAAA,EACE,+CACF,CAEA,KACE,YACF,CAEA,MAGE,UAAW,CAFX,gBAAiB,CACjB,UAEF,CAEA,MACE,qBAAsB,CACtB,iBAAkB,CAElB,kBAAmB,CACnB,iBAAkB,CAFlB,eAGF,CAEA,QACE,WAAY,CACZ,iBACF,CAEA,UAEE,gBAAiB,CADjB,UAEF,CAEA,WACE,YAAa,CACb,cAAc,CACd,kBACF",
     "sources": [
         "index.css"
