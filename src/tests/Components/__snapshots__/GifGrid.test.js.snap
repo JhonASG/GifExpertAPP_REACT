@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para el componente GifGrid Debe mostrar items cuando se cargan imagenes del hook useFetchGifs 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h3
+        class="animate__animated animate__bounce"
+      >
+        Goku
+      </h3>
+      <div
+        class="card-grid"
+      >
+        <div
+          class="card animate__animated animate__rotateInDownLeft"
+          data-testid="container"
+        >
+          <img
+            alt="Goku"
+            src="https://Goku.jpg"
+          />
+          <p>
+            Goku
+          </p>
+        </div>
+        <div
+          class="card animate__animated animate__rotateInDownLeft"
+          data-testid="container"
+        >
+          <img
+            alt="Gohan"
+            src="https://Goku.jpg"
+          />
+          <p>
+            Gohan
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <h3
+      class="animate__animated animate__bounce"
+    >
+      Goku
+    </h3>
+    <div
+      class="card-grid"
+    >
+      <div
+        class="card animate__animated animate__rotateInDownLeft"
+        data-testid="container"
+      >
+        <img
+          alt="Goku"
+          src="https://Goku.jpg"
+        />
+        <p>
+          Goku
+        </p>
+      </div>
+      <div
+        class="card animate__animated animate__rotateInDownLeft"
+        data-testid="container"
+      >
+        <img
+          alt="Gohan"
+          src="https://Goku.jpg"
+        />
+        <p>
+          Gohan
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Pruebas para el componente GifGrid Debe renderizar correctamente el componente 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h3
+        class="animate__animated animate__bounce"
+      >
+        Goku
+      </h3>
+      <p
+        class="animate__animated animate__flash"
+        data-testid="carga"
+      >
+        Loading ...
+      </p>
+      <div
+        class="card-grid"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h3
+      class="animate__animated animate__bounce"
+    >
+      Goku
+    </h3>
+    <p
+      class="animate__animated animate__flash"
+      data-testid="carga"
+    >
+      Loading ...
+    </p>
+    <div
+      class="card-grid"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

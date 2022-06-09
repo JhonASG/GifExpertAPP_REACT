@@ -11,6 +11,7 @@ const AddCategory = ({setCategories}) =>{
 
     const handleSubmit = (e) =>{
         e.preventDefault();
+
         if (inputValue.trim().length > 2) {
             setCategories(cat => [inputValue, ...cat]);
             setInputValue('');
@@ -20,7 +21,7 @@ const AddCategory = ({setCategories}) =>{
     return (
         /*En este caso no se necesita un fragment <></> porque con el <form></form> 
         agrupamos todos los elementos.*/
-        <form onSubmit={handleSubmit}>
+        <form data-testid="form" onSubmit={handleSubmit}>
             <input type="text" value={inputValue} onChange={handleInputChange}/>
         </form>
     )

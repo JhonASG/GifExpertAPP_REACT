@@ -1,6 +1,7 @@
 import React from 'react'
-import { useFecthGifs } from '../hooks/useFetchGifs'
+import useFetchGifs from '../hooks/useFetchGifs'
 import {GifGridItem} from './GifGridItem';
+import PropTypes from 'prop-types';
 
 export const GifGrid = ({ category }) => {
 	/*const [images, setImages] = useState([]);
@@ -11,12 +12,12 @@ export const GifGrid = ({ category }) => {
 	}, [category]);*/
 
 	// Custom Hook que al final es una función que return un estado
-	const {data:images, loading} = useFecthGifs(category);
+	const {data:images, loading} = useFetchGifs(category);
 
 	return (
 		<>
 			<h3 className='animate__animated animate__bounce'>{ category }</h3>
-			{loading && <p className='animate__animated animate__flash'>Loading ...</p>}
+			{loading && <p data-testid='carga' className='animate__animated animate__flash'>Loading ...</p>}
 			<div className='card-grid'>
 				{
 					images.map(imgs => {
@@ -39,4 +40,8 @@ export const GifGrid = ({ category }) => {
 			*/}
 		</>
 	)
+}
+
+GifGrid.propTypes = {
+	category: PropTypes.string.isRequired 
 }

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import AddCategory from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
-const GifExpertApp = () => {
-    const titleH2 = 'GifExpertApp';
+const GifExpertApp = ({ defaultCategory = [] }) => {
+    const title = 'GifExpertApp';
     // const categories = ['One Punch', 'Samurai X', 'Dragon Ball'];
-    const [categories, setCategories] = useState(['Dragon Ball']);
+    const [categories, setCategories] = useState( defaultCategory );
     
     /*const handleAddCategory = () => {
         // Forma de agregar las categorias con el operador spreed ...Name
@@ -17,7 +17,7 @@ const GifExpertApp = () => {
 
     return (
         <>
-            <h2>{titleH2}</h2>
+            <h2>{ title }</h2>
             <AddCategory setCategories = {setCategories} />
             <hr />
             <ol>

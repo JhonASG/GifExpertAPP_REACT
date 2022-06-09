@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react"
 import { getGifs } from '../helpers/getGifs.js'
 
-export const useFecthGifs = (category) =>{
+const useFecthGifs = (category) =>{
     const [state, setState] = useState({
         data: [],
         loading: true
@@ -21,3 +21,5 @@ export const useFecthGifs = (category) =>{
 
     return state; // regresa el objeto que tiene como parametros la data y el loading.
 }
+
+export default useFecthGifs;
