@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import AddCategory from './components/AddCategory';
-import { GifGrid } from './components/GifGrid';
+import {AddCategory, GifGrid} from './components';
 
 const GifExpertApp = ({ defaultCategory = [] }) => {
     const title = 'GifExpertApp';
@@ -18,7 +17,7 @@ const GifExpertApp = ({ defaultCategory = [] }) => {
     return (
         <>
             <h2>{ title }</h2>
-            <AddCategory setCategories = {setCategories} />
+            <AddCategory setCategories = {setCategories} categories = {categories}/>
             <hr />
             <ol>
                 {
